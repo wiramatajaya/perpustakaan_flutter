@@ -2,8 +2,12 @@
 
 A new Flutter project.
 
-## Getting Started
+## Halaman utama
 
 ![Tampilan Aplikasi](demo/dashboard.png)
-![Tampilan Aplikasi](assets/sidebar.png)
-![Tampilan Aplikasi](assets/image.png)
+## Menu 
+
+![Tampilan Aplikasi](demo/sidebar.png)
+##  
+
+![Tampilan Aplikasi](demo/image.png)
