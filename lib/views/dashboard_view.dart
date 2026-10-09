@@ -293,22 +293,7 @@ class DashboardView extends StatelessWidget {
                                   borderRadius: BorderRadius.circular(8),
                                   border: Border.all(color: AppTheme.borderLight),
                                 ),
-                                child: DropdownButtonHideUnderline(
-                                  child: DropdownButton<String>(
-                                    value: provider.dashboardYear,
-                                    dropdownColor: const Color(0xFF0F172A),
-                                    style: GoogleFonts.inter(fontSize: 11, color: Colors.white),
-                                    items: ['Semua Tahun', '2026', '2025', '2024']
-                                        .map((y) => DropdownMenuItem(
-                                              value: y,
-                                              child: Text(y),
-                                            ))
-                                        .toList(),
-                                    onChanged: (val) {
-                                      if (val != null) provider.setDashboardYear(val);
-                                    },
-                                  ),
-                                ),
+
                               ),
                             ],
                           ),
